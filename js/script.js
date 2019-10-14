@@ -130,3 +130,22 @@
 //     }
 //   }
 // }
+
+// A small company has ‘n’ employees. Each employee takes part in 3 projects. Their performance on each project is recorded in percentage and averaged.
+// For example employee1 takes part in projectA, projectB and projectC. The performance of employee1 in projectA is 83%, in projectB is 93% and in project is 100%.. Finding the average of all the projects gives the overall performance of this employee1.
+// Store each project’s data in an array separatey.
+// Find the name of the employee whose performance is outstanding and produce the percentage.
+// Also apply the following labels to each employee according to their overall performance.
+// If the overall percentage is greater than 90%, then “eligible for increment”, else if it is greater than 70% and less than 90%, then “eligible to continue in project team”, otherwise “change designation”.
+// Write an algorithm for the above scenario.
+
+
+var progectA = [];
+var projectB = [];
+var projectC = [];
+
+var employees = [];
+var employeesNames = [];
+var emplayees = parseInt(prompt("enter names"));
+
+document.getElementById('result').innerHTML += ;
